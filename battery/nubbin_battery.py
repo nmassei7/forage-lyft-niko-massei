@@ -1,4 +1,4 @@
-from battery.base import Battery, NegativeTimeException
+from battery.Battery import Battery, NegativeTimeException
 
 class NubbinBattery(Battery):
   def __init__(self, last_service_date, current_date):
